@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+
+/* font-families */
+
+$open_sans: 'Open Sans', sans-serif;
+
+$blue: #17365D;
+$red: #A54A4A;
+$grey: #404040;
+$white: #fff;
+$black: #000;
+
+
+body {
+	font-family: $open_sans;
+}
+.center {
+	text-align: center;
+}
+input, button, a {
+	&:focus {
+		outline: none;
+	}
+}
+.table-div {
+	display: table;
+	> div {
+		display: table-cell;
+		width: 10%;
+	}
+}
+
+/* header css */
+
+
+/* index page css */
+
+.home-title {
+	padding: 150px 0;
+	text-align: center;
+	h2 {
+		font-size: 50px;
+		font-weight: 400;
+		margin-bottom: 0;
+		color: $grey;
+	}
+	img {
+		width: 300px;
+		height: auto;
+	}
+	span {
+		font-style: italic;
+		font-size: 20px;
+		color: $red;
+	}
+}
+
+/* page css */
+
+.logo-div {
+	padding: 5px 0;
+	img {
+		width: 120px;
+		height: auto;
+	}
+}
+
+.page-banner-div {
+	background: #eee;
+	/*background: url("../img/page-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	padding: 35px 0;
+	text-align: center;
+	h2 {
+		font-size: 25px;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	h3 {
+		font-size: 30px;
+		font-weight: 400;
+		color: $grey;
+		margin: 0;
+	}
+}
+.page-body {
+	padding: 30px 0;
+}
+.ques {
+	margin: 10px 0;
+	font-size: 18px;
+	color: $blue;
+	font-weight: 700;
+}
+.ans {
+	padding-left: 25px;
+	font-size: 15px;
+}
+.next-btn {
+	text-align: center;
+	margin-top: 50px;
+	a {
+		background: #aaa;
+		color: $white;
+		font-size: 20px;
+		text-transform: uppercase;
+		padding: 5px 40px;
+		border-radius: 2px;
+		border: none;
+		text-decoration: none;
+		transition: 0.3s ease;
+		&:hover {
+			background: $grey;
+		}
+	}
+}
+
+/* step1 css */
+
+.page-questions {
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+}
+
+/* step2 css */
+
+.risk-measure {
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	background: $blue;
+	color: $white;
+	margin-bottom: 30px;
+	> div {
+		border: 1px solid #eee;
+		padding: 15px 0;
+	}
+}
+
+/* step3 css */
+
+.img-col-select {
+	margin-top: 30px;
+	.section {
+		text-align: center;
+		border: 1px solid #aaa;
+		padding: 20px;
+		h3 {
+			font-size: 20px;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	ul.inputs {
+		text-align: left;
+		padding-left: 70px;
+	}
+}
+
+
+
+
+
