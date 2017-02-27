@@ -14,7 +14,7 @@
 <div class="container">
 	<div class="page-body">
 		<div class="page-questions">
-			<div class="ques">
+			<div class="ques center">
 				What geographic area would you like to target your investments?
 			</div>
 			<div class="img-col-select">
@@ -103,7 +103,7 @@
 			</div>
 		</div>
 		<div class="next-btn">
-			<a href="step4">Next</a>
+			<a href="step4.php">Next</a>
 		</div>
 	</div>
 </div>

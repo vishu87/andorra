@@ -60,6 +60,7 @@ input, button, a {
 
 .logo-div {
 	padding: 5px 0;
+	text-align: center;
 	img {
 		width: 120px;
 		height: auto;
@@ -87,13 +88,16 @@ input, button, a {
 	}
 }
 .page-body {
-	padding: 30px 0;
+	padding: 30px 100px;
 }
 .ques {
 	margin: 10px 0;
 	font-size: 18px;
 	color: $blue;
 	font-weight: 700;
+	&.center{
+		text-align:center;
+	}
 }
 .ans {
 	padding-left: 25px;
@@ -101,19 +105,20 @@ input, button, a {
 }
 .next-btn {
 	text-align: center;
-	margin-top: 50px;
+	margin: 50px;
 	a {
-		background: #aaa;
-		color: $white;
+		background: #FFF;
+		color: #000;
 		font-size: 20px;
-		text-transform: uppercase;
-		padding: 5px 40px;
-		border-radius: 2px;
-		border: none;
+		padding: 5px 60px;
+		border-radius: 5px;
+		border: 1px solid #000;
 		text-decoration: none;
 		transition: 0.3s ease;
+		cursor: pointer;
 		&:hover {
-			background: $grey;
+			background: $blue;
+			color: #FFF;
 		}
 	}
 }

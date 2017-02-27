@@ -26,11 +26,15 @@
 			<div>10</div>
 		</div>
 		<div class="page-questions">
-			<div class="ques">
-				A. For how many years do you want to invest your money?
-			</div>
-			<div class="ans">
-				<input type="text" name="">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="ques">
+						A. For how many years do you want to invest your money?
+					</div>
+				</div>
+				<div class="col-md-2">
+					<input type="text" class="form-control" placeholder="">
+				</div>
 			</div>
 			<div class="ques">
 				B. How much money do you want to invest?
@@ -111,7 +115,7 @@
 			</div>
 		</div>
 		<div class="next-btn">
-			<a href="step3">Next</a>
+			<a href="step3.php">Next</a>
 		</div>
 	</div>
 </div>

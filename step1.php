@@ -20,12 +20,20 @@
 			<div class="ans">
 				<ul>
 					<li>
-						<input type="radio" name="ques1">
-						I want to align my endowment with market rate impact investments
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
+						    I want to align my endowment with market rate impact investments
+						  </label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques1">
-						I want to make program related impact investments
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
+						    I want to make program related impact investments
+						  </label>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -50,7 +58,7 @@
 			</div>
 		</div>
 		<div class="next-btn">
-			<a href="step2">Next</a>
+			<a href="step2.php">Next</a>
 		</div>
 	</div>
 </div>

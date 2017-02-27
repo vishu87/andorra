@@ -11,12 +11,34 @@
 		</h3>
 	</div>
 </div>
+<style type="text/css">
+	.blue {
+		background-color: #0f0;
+	}
+	.pink {
+		background-color: #f00;
+	}
+</style>
 <div class="container">
 	<div class="page-body">
 		<div class="page-questions">
-			<div class="ques">
+			<div class="ques center">
 				Please select the top eight social and environmental issues from the list provided?
 			</div>
+			<?php
+				for ($i=0; $i < 15; $i++) { 
+					?>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php echo $i ?>">
+						<?php echo 'Issue '.$i ?>
+					</div>
+					<?php
+				}
+			?>
+		</div>
+		<div class="tiers">
+			<div class="tier droppable tier1" style="height:100px; border: 1px solid #000; margin-top: 50px"></div>
+			<div class="tier droppable tier2" style="height:100px; border: 1px solid #000; margin-top: 50px"></div>
+			<div class="tier droppable tier3" style="height:100px; border: 1px solid #000; margin-top: 50px"></div>
 		</div>
 	</div>
 </div>
