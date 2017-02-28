@@ -85,11 +85,12 @@ input, button, a {
 }
 .home-mission {
 	margin: 100px 0;
-	color: $blue;
+	
 	font-size: 18px;
 	h2 {
 		font-size: 25px;
-		font-style: italic;
+		color: $blue;
+		// font-style: italic;
 		font-weight: 700;
 		margin-bottom: 0;
 	}
