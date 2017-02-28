@@ -13,19 +13,28 @@
 <div class="container">
 	<div class="page-body">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4" style="border-right:1px solid #eee">
+				<h2 class="chart-title">
+					Asset Class
+				</h2>
 				<div class="chart">
 			  		<div id="chartContainer1" style="height: 400px; width: 100%;"></div>
 			  		<div class="hide-text"></div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" style="border-right:1px solid #eee">
+				<h2 class="chart-title">
+					Social Focus
+				</h2>
 				<div class="chart">
 			  		<div id="chartContainer2" style="height: 400px; width: 100%;"></div>
 			  		<div class="hide-text"></div>
 				</div>
 			</div>
 			<div class="col-md-4">
+				<h2 class="chart-title">
+					Geographic Location
+				</h2>
 				<div class="chart">
 			  		<div id="chartContainer3" style="height: 400px; width: 100%;"></div>
 			  		<div class="hide-text"></div>
@@ -35,16 +44,29 @@
 
 		<div class="row">
 			<div class="col-md-4">
-				
+				<div class="screen-shot">
+					<h2 class="chart-title">
+						Impact Investor Profile
+					</h2>
+					<img src="assets/img/impact-investor-screen.png">
+				</div>
 			</div>
 			<div class="col-md-4">
+				<h2 class="chart-title">
+					Impact Investing Portfolio 
+				</h2>
 				<div class="chart">
 			  		<div id="chartContainer4" style="height: 400px; width: 100%;"></div>
 			  		<div class="hide-text"></div>
 				</div>
 			</div>
 			<div class="col-md-4">
-				
+				<div class="screen-shot">
+					<h2 class="chart-title">
+						Your Philosophy Matrix
+					</h2>
+					<img src="assets/img/matrix-screen.png">
+				</div>
 			</div>
 		</div>
 
