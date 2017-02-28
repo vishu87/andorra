@@ -425,7 +425,7 @@ h2.chart-title {
 			}
 		}
 		tr {
-			background: #DDD;
+			background: #f7f7f7;
 			td {
 				padding: 10px;
 				text-align: right;
@@ -437,13 +437,12 @@ h2.chart-title {
 				}
 				span {
 					display: block;
-					background: $blue;
-					height: 6px;
+					height: 8px;
 					width: 50px;
 				}
 			}
 			&:nth-child(2n+1){
-				background: #EEE;
+				background: #fff;
 			}
 		}
 	}

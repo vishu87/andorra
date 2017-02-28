@@ -49,8 +49,8 @@
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-md-4">
+		<div class="row" style="margin-top: 20px">
+			<div class="col-md-4" style="border-right:1px solid #eee">
 				<div class="screen-shot">
 					<h2 class="chart-title">
 						Impact Investor Profile
@@ -67,8 +67,8 @@
 			  		<div class="hide-text"></div>
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="screen-shot">
+			<div class="col-md-4"  style="border-left:1px solid #eee">
+				<div class="screen-shot" >
 					<h2 class="chart-title">
 						Your Philosophy Matrix
 					</h2>
@@ -95,7 +95,7 @@
 							<td>20%</td>
 							<td>25%</td>
 							<td>
-								<span class="range"></span>
+								<span class="range" style="background: #123351; width: 100px"></span>
 							</td>
 							<td>$2,657,500</td>
 							<td>15%</td>
@@ -105,7 +105,7 @@
 							<td>15%</td>
 							<td>10%</td>
 							<td>
-								<span class="range"></span>
+								<span class="range" style="background: #225785; width: 40px"></span>
 							</td>
 							<td>$1,063,000</td>
 							<td>5%</td>
@@ -115,7 +115,7 @@
 							<td>15%</td>
 							<td>15%</td>
 							<td>
-								<span class="range"></span>
+								<span class="range" style="background: #4674A3; width: 75px"></span>
 							</td>
 							<td>$1,594,500</td>
 							<td>8%</td>
@@ -125,7 +125,7 @@
 							<td>5%</td>
 							<td>7%</td>
 							<td>
-								<span class="range"></span>
+								<span class="range" style="background: #A5C0DF; width: 30px"></span>
 							</td>
 							<td>$744.100</td>
 							<td>1%</td>
@@ -135,7 +135,7 @@
 							<td>25%</td>
 							<td>23%</td>
 							<td>
-								<span class="range"></span>
+								<span class="range" style="background: #E0E0E0; width: 90px"></span>
 							</td>
 							<td>$2,444,900</td>
 							<td>2%</td>
@@ -145,7 +145,7 @@
 							<td>20%</td>
 							<td>10%</td>
 							<td>
-								<span class="range"></span>
+								<span class="range" style="background: #CBCBCB; width: 40px"></span>
 							</td>
 							<td>$1,063,000</td>
 							<td>0%</td>
@@ -155,7 +155,7 @@
 							<td>0%</td>
 							<td>10%</td>
 							<td>
-								<span class="range"></span>
+								<span class="range" style="background: #B5B5B5; width: 40px"></span>
 							</td>
 							<td>$1,063,000</td>
 							<td>0%</td>
@@ -188,7 +188,8 @@
 					<div style="background:#225785;">9</div>
 					<div style="background:#123351;">10</div>
 				</div>
-				
+				<div style="margin:-15px 0 10px 0; overflow: hidden; width: 65%; background: url(assets/img/arrow.png) no-repeat top right; height: 80px; ">
+				</div>
 			</div>
 		</div>
 
