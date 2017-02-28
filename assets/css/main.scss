@@ -177,17 +177,21 @@ input, button, a {
 	margin: 50px;
 	a {
 		background: #FFF;
-		color: #000;
-		font-size: 20px;
-		padding: 5px 60px;
-		border-radius: 5px;
-		border: 1px solid #000;
+		display: inline-block;
+		color: #666;
+		font-size: 16px;
+		padding: 8px;
+		border-radius: 8px;
+		border: 1px solid #AAA;
+		box-shadow: inset 0 0 5px #CCC;
 		text-decoration: none;
 		transition: 0.3s ease;
 		cursor: pointer;
+		width: 160px;
 		&:hover {
 			background: $blue;
 			color: #FFF;
+			box-shadow: none;
 		}
 	}
 }
@@ -206,7 +210,7 @@ input, button, a {
 .risk-measure {
 	width: 100%;
 	text-align: center;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 600;
 	background: $blue;
 	color: $white;
@@ -304,7 +308,7 @@ input, button, a {
 }
 
 .profile {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 	table {
 		width: 100%;
@@ -314,7 +318,11 @@ input, button, a {
 				padding: 10px;
 				&:first-child {
 					font-weight: bold;
-					width: 200px;
+					width: 250px;
+					font-size: 16px;
+				}
+				&:last-child {
+					font-size: 14px;
 				}
 			}
 			&:nth-child(2n+1){
@@ -333,6 +341,7 @@ input, button, a {
 h2.chart-title {
 	text-align: center;
 	margin-bottom: 0;
+	font-size: 26px;
 }
 .chart {
 	position: relative;
@@ -356,10 +365,11 @@ h2.chart-title {
 }
 
 .portfolio-table {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 	h2 {
 		text-align: center;
+		font-size: 30px;
 	}
 	table {
 		width: 100%;
@@ -378,6 +388,12 @@ h2.chart-title {
 				&:first-child {
 					font-weight: bold;
 				}
+				&:nth-child(2) {
+					text-align: center;
+				}
+				&:last-child{
+					text-align: center;
+				}
 			}
 			&:nth-child(2n+1){
 				background: #EEE;
@@ -387,26 +403,37 @@ h2.chart-title {
 }
 
 .diversification {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 	h2 {
 		text-align: center;
+		font-size: 26px;
 	}
 	table {
 		width: 100%;
 		thead tr{
 			font-size: 16px;
 			font-weight: 600;
-			color: $blue;
-			background: #ddd !important;
+			color: white;
+			background: $blue !important;
 			border-bottom: 1px solid $blue;
+			td {
+				text-align: center;
+				&:first-child{
+					text-align: left;
+				}
+			}
 		}
 		tr {
 			background: #DDD;
 			td {
 				padding: 10px;
+				text-align: right;
 				&:first-child {
 					font-weight: bold;
+					text-align: left;
+					font-size: 16px;
+					color: $blue;
 				}
 				span {
 					display: block;
@@ -421,6 +448,27 @@ h2.chart-title {
 		}
 	}
 }
+
+.risk-score {
+	width: 800px;
+	margin: 0 auto;
+	h2 {
+		text-align: center;
+		font-size: 26px;
+	}
+	
+}
+
+.financial-reporting{
+	width: 800px;
+	margin: 0 auto;
+	h2 {
+		text-align: center;
+		font-size: 26px;
+	}
+	
+}
+
 .draggable{
 	cursor: move;
 }

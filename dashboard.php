@@ -183,7 +183,7 @@
 					<div style="background:#E0E0E0;">4</div>
 					<div style="background:#E3EBF5;">5</div>
 					<div style="background:#C5D7EA;">6</div>
-					<div style="background:#A5C0DF;">7</div>
+					<div style="background:#A5C0DF; color: #f00">7</div>
 					<div style="background:#4674A3;">8</div>
 					<div style="background:#225785;">9</div>
 					<div style="background:#123351;">10</div>
@@ -192,11 +192,14 @@
 			</div>
 		</div>
 
-
-		<div style="width:600px; margin: 0 auto">
-			<div class="chart">
-		  		<div id="chartContainer5" style="height: 400px; width: 100%;"></div>
-		  		<div class="hide-text" style="height:10px"></div>
+		<div class="financial-reporting">
+			<h2>Financial Reporting</h2>
+		
+			<div style="width:100%; margin: 0 auto">
+				<div class="chart">
+			  		<div id="chartContainer5" style="height: 400px; width: 100%;"></div>
+			  		<div class="hide-text" style="height:10px"></div>
+				</div>
 			</div>
 		</div>
 

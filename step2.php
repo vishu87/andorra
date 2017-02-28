@@ -18,7 +18,7 @@
 </div>
 <div class="container">
 	<div class="page-body">
-		<div class="arrow">
+		<div class="arrow" style="margin-bottom: 5px;">
 			<img src="assets/img/arrow.png">
 		</div>
 		<div class="risk-measure table-div">

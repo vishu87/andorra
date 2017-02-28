@@ -20,7 +20,7 @@
 <div class="container">
 	<div class="page-body">
 		<div class="matrix">
-			<div class="abs vertical" style="left:-120px; top:50%; margin-top:-26px">Board &amp; Donor</div>
+			<div class="abs vertical" style="left:-130px; top:50%; margin-top:-26px; font-size: 18px">Board &amp; Donor</div>
 			<div class="abs vertical" style="left:-60px; top:360px">Moderate</div>
 			<div class="abs vertical" style="left:-62px; top:212px">Significant</div>
 			<div class="abs vertical" style="left:-47px; top:58px">Major</div>
