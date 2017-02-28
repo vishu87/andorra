@@ -320,9 +320,9 @@ window.onload = function () {
 			type: "pie",
 			name: "portfolio",      
 			indexLabelFontSize: 14,
-			indexLabel: "{label} {y}%",
+			indexLabel: "{label}",
 			startAngle:-160,
-			toolTipContent:"{label} <br>(Expected Return {legendText})",
+			toolTipContent:"{label} {y}% <br>(Expected Return {legendText})",
 			indexLabelPlacement: "inside",
 			indexLabelFontColor: "white",
 			dataPoints: [
