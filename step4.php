@@ -40,7 +40,31 @@
 			<div class="tier droppable tier2" style="height:100px; border: 1px solid #000; margin-top: 50px"></div>
 			<div class="tier droppable tier3" style="height:100px; border: 1px solid #000; margin-top: 50px"></div>
 		</div>
+		<div class="next-btn">
+			<a href="matrix.php">Submit</a>
+		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	var count = 0;
+	$( function() {
+	    $( ".draggable" ).draggable();
+	    $( ".droppable" ).droppable({
+	      drop: function( event, ui ) {
+	      	$(ui.draggable).removeClass("pink").addClass("blue");
+	      	count_items();
+	      },
+	      out: function(event, ui) {
+	      		$(ui.draggable).removeClass("blue").addClass("pink");
+	      		count_items();
+	    	}
+	    });
+	  } );
+
+	function count_items(){
+		console.log($(".blue").length);
+	}
+</script>
 
 <?php include('footer.php'); ?>

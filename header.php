@@ -11,7 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
-	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/jquery-ui/jquery-ui.min.js"></script>
 	
 	<link rel="icon" type="image/png" href="favicon.png">
 

@@ -30,10 +30,8 @@
 				<div class="col-md-12">
 					<div class="ques">
 						A. For how many years do you want to invest your money?
+						<input type="number" name="">
 					</div>
-				</div>
-				<div class="col-md-2">
-					<input type="text" class="form-control" placeholder="">
 				</div>
 			</div>
 			<div class="ques">

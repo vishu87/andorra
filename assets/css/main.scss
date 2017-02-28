@@ -170,7 +170,123 @@ input, button, a {
 	}
 }
 
+.matrix {
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	.abs {
+		position: absolute;
+		z-index: 999;
+		&.vertical{
+			transform: rotate(-90deg);
+		}
+	}
+	.circle {
+		position: absolute;
+		z-index: 1000;
+	}
+	.row {
+		> div {
+			height: 150px;
+			border: 1px solid #000;
+			&.div1{
+				background: #EEE;
+			}
+			&.div2{
+				background: #DDD;
+			}
+			&.div3{
+				background: #CCC;
+			}
+			&.simple{
+				text-align: center;
+				border: none;
+				height: auto;
+			}
+		}
+	}
+}
 
+.profile {
+	width: 600px;
+	margin: 0 auto;
+	table {
+		width: 100%;
+		tr {
+			background: #DDD;
+			td {
+				padding: 10px;
+				&:first-child {
+					font-weight: bold;
+				}
+			}
+			&:nth-child(2n+1){
+				background: #EEE;
+			}
+		}
+	}
+}
 
+.portfolio {
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+}
 
+.chart {
+	position: relative;
+	.hide-text {
+		background:#FFF;
+		position:absolute;
+		bottom:0;
+		height:20px;
+		z-index:999;
+		width:100%;
+	}
+}
 
+.portfolio-table {
+	width: 600px;
+	margin: 0 auto;
+	h2 {
+		text-align: center;
+	}
+	table {
+		width: 100%;
+		tr {
+			background: #DDD;
+			td {
+				padding: 10px;
+				&:first-child {
+					font-weight: bold;
+				}
+			}
+			&:nth-child(2n+1){
+				background: #EEE;
+			}
+		}
+	}
+}
+
+.diversification {
+	width: 600px;
+	margin: 0 auto;
+	h2 {
+		text-align: center;
+	}
+	table {
+		width: 100%;
+		tr {
+			background: #DDD;
+			td {
+				padding: 10px;
+				&:first-child {
+					font-weight: bold;
+				}
+			}
+			&:nth-child(2n+1){
+				background: #EEE;
+			}
+		}
+	}
+}
