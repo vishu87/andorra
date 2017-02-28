@@ -18,6 +18,9 @@
 </div>
 <div class="container">
 	<div class="page-body">
+		<div class="arrow">
+			<img src="assets/img/arrow.png">
+		</div>
 		<div class="risk-measure table-div">
 			<div style="background:#919191;">1</div>
 			<div style="background:#B5B5B5;">2</div>

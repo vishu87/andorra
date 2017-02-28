@@ -27,7 +27,7 @@
 					<div class="col-md-3">
 						<div class="section">
 							<h3>International</h3>
-							<img src="assets/img/international-icon.png">
+							<img src="assets/img/globe.jpg">
 							<ul class="inputs">
 								<li>
 									<div class="radio">
@@ -59,7 +59,7 @@
 					<div class="col-md-3">
 						<div class="section">
 							<h3>National</h3>
-							<img src="assets/img/international-icon.png">
+							<img src="assets/img/america.jpg">
 							<ul class="inputs">
 								<li>
 									<div class="radio">
@@ -91,7 +91,7 @@
 					<div class="col-md-3">
 						<div class="section">
 							<h3>Regional</h3>
-							<img src="assets/img/international-icon.png">
+							<img src="assets/img/state.jpg">
 							<ul class="inputs">
 								<li>
 									<div class="radio">
@@ -123,7 +123,7 @@
 					<div class="col-md-3">
 						<div class="section">
 							<h3>Local</h3>
-							<img src="assets/img/international-icon.png">
+							<img src="assets/img/local.jpg">
 							<ul class="inputs form-group">
 								<li>
 									<div class="radio">
