@@ -101,7 +101,7 @@ window.onload = function () {
 			dataPoints: [
 				{  y: 20, label: "Grants", legendText:'0%' },
 				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },
-				{  y: 5, label: "Microfinance", legendText: '0-1%' },
+				{  y: 5, label: "Microfinance", legendText: '0-1%', indexLabel:'' },
 				{  y: 20, label: "VC Fund", legendText: '9+%'},       
 				{  y: 15, label: "Pay For Success Bonds", legendText:'2-6%'},
 				{  y: 15, label: "Green Bonds", legendText:'4-8%'},
