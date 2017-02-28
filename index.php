@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-	
 	<div class="container">
 		<div class="home-title">
 			<h2>What Type of Impact Investor Are You?</h2>
