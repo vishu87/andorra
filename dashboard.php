@@ -18,7 +18,7 @@
 </div>
 
 <div class="container">
-	<div class="page-body">
+	<div class="page-body" style="padding-left: 0; padding-right: 0">
 		<div class="row">
 			<div class="col-md-4" style="border-right:1px solid #eee">
 				<h2 class="chart-title">
@@ -222,16 +222,16 @@ window.onload = function () {
 			type: "pie",
 			name: "portfolio",      
 			indexLabelFontSize: 14,
-			indexLabel: "{label} {y}%",
+			indexLabel: "{label}",
 			startAngle:-160,
-			toolTipContent:"{label} <br>(Expected Return {legendText})",
+			toolTipContent:"{legendText}",
+			indexLabelPlacement: "inside",
+			indexLabelFontColor: "white",
 			dataPoints: [
-				{  y: 20, label: "Grants", legendText:'0%' },
-				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },
-				{  y: 5, label: "Microfinance", legendText: '0-1%' },
-				{  y: 20, label: "VC Fund", legendText: '9+%'},       
-				{  y: 15, label: "Pay For Success Bonds", legendText:'2-6%'},
-				{  y: 15, label: "Green Bonds", legendText:'4-8%'},
+				{  y: 10, label: "Grants", legendText:'Grants 10%' },
+				{  y: 25, label: "Equity", legendText: 'Equity 25%' },
+				{  y: 55, label: "Fixed Income", legendText: 'Fixed Income 55%' },
+				{  y: 10, label: "Cash", legendText: 'Cash 10%'}
 			]
 		}
 		]
@@ -252,16 +252,20 @@ window.onload = function () {
 			type: "pie",
 			name: "portfolio",      
 			indexLabelFontSize: 14,
-			indexLabel: "{label} {y}%",
+			indexLabel: "{label}",
 			startAngle:-160,
-			toolTipContent:"{label} <br>(Expected Return {legendText})",
+			toolTipContent:"{label} {y}%",
+			indexLabelPlacement: "inside",
+			indexLabelFontColor: "white",
 			dataPoints: [
-				{  y: 20, label: "Grants", legendText:'0%' },
-				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },
-				{  y: 5, label: "Microfinance", legendText: '0-1%' },
-				{  y: 20, label: "VC Fund", legendText: '9+%'},       
-				{  y: 15, label: "Pay For Success Bonds", legendText:'2-6%'},
-				{  y: 15, label: "Green Bonds", legendText:'4-8%'},
+				{  y: 20, label: "Renewable Energy"},
+				{  y: 15, label: "Non-Profit"},
+				{  y: 9, label: "International Development"},
+				{  y: 12, label: "Education" },  
+				{  y: 6, label: "Entrepreneurs" },  
+				{  y: 12, label: "Health"},
+				{  y: 13, label: "Environment"},
+				{  y: 13, label: "Agriculture"},
 			]
 		}
 		]
@@ -282,16 +286,16 @@ window.onload = function () {
 			type: "pie",
 			name: "portfolio",      
 			indexLabelFontSize: 14,
-			indexLabel: "{label} {y}%",
+			indexLabel: "{label}",
 			startAngle:-160,
-			toolTipContent:"{label} <br>(Expected Return {legendText})",
+			toolTipContent:"{label} {y}%",
+			indexLabelPlacement: "inside",
+			indexLabelFontColor: "white",
 			dataPoints: [
-				{  y: 20, label: "Grants", legendText:'0%' },
-				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },
-				{  y: 5, label: "Microfinance", legendText: '0-1%' },
-				{  y: 20, label: "VC Fund", legendText: '9+%'},       
-				{  y: 15, label: "Pay For Success Bonds", legendText:'2-6%'},
-				{  y: 15, label: "Green Bonds", legendText:'4-8%'},
+				{  y: 10, label: "Local"},
+				{  y: 30, label: "International"},
+				{  y: 25, label: "National"},
+				{  y: 35, label: "Regional"}
 			]
 		}
 		]
@@ -315,6 +319,8 @@ window.onload = function () {
 			indexLabel: "{label} {y}%",
 			startAngle:-160,
 			toolTipContent:"{label} <br>(Expected Return {legendText})",
+			indexLabelPlacement: "inside",
+			indexLabelFontColor: "white",
 			dataPoints: [
 				{  y: 20, label: "Grants", legendText:'0%' },
 				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },

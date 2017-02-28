@@ -21,7 +21,7 @@
 	<div class="page-body">
 		<div class="portfolio chart">
 	  		<div id="chartContainer" style="height: 400px; width: 100%;"></div>
-	  		<div class="hide-text"></div>
+	  		<div class="hide-text" style="height: 15px;"></div>
 		</div>
 
 		<div class="portfolio-table">
@@ -93,9 +93,11 @@ window.onload = function () {
 			type: "pie",
 			name: "portfolio",      
 			indexLabelFontSize: 14,
-			indexLabel: "{label} {y}%",
+			indexLabel: "{label}",
 			startAngle:-160,
-			toolTipContent:"{label} <br>(Expected Return {legendText})",
+			toolTipContent:"{label} {y}% <br>(Expected Return {legendText})",
+			indexLabelPlacement: "inside",
+			indexLabelFontColor: "white",
 			dataPoints: [
 				{  y: 20, label: "Grants", legendText:'0%' },
 				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },

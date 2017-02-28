@@ -52,7 +52,7 @@
 			<?php
 				foreach($ar as $a){ 
 					?>
-					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin: 0 10px 10px 0;" class="draggable grey drag">
+					<div style="border:1px solid #000; display: inline-block; padding: 6px 10px; margin: 0 10px 10px 0;" class="draggable grey drag">
 						<?php echo $a ?>
 					</div>
 					<?php
