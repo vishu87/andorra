@@ -22,7 +22,7 @@
 							<div class="title">
 								Impact Investor Profile
 							</div>
-							<img src="assets/img/investor-profile-icon.jpg">	
+							<img src="assets/img/investor-profile-icon.png">	
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -34,7 +34,7 @@
 							<div class="title">
 								Impact Investing Plan
 							</div>
-							<img src="assets/img/investing-plan-icon.jpg">	
+							<img src="assets/img/investing-plan-icon.png">	
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -47,7 +47,7 @@
 								Invest in Impact
 							</div>
 						</div>
-						<img src="assets/img/invest-impact-icon.jpg">	
+						<img src="assets/img/invest-impact-icon.png">	
 					</div>
 				</div>
 				<div class="home-mission">

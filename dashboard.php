@@ -55,7 +55,7 @@
 					<h2 class="chart-title">
 						Impact Investor Profile
 					</h2>
-					<img src="assets/img/impact-investor-screen.png">
+					<a href="profile.php"><img src="assets/img/impact-investor-screen.png"></a>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -72,7 +72,7 @@
 					<h2 class="chart-title">
 						Your Philosophy Matrix
 					</h2>
-					<img src="assets/img/matrix-screen.png">
+					<a href="matrix.php"><img src="assets/img/matrix-screen-2.png"></a>
 				</div>
 			</div>
 		</div>

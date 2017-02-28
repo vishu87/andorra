@@ -14,7 +14,7 @@
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/jquery-ui/jquery-ui.min.js"></script>
 	
-	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 
 </head>
 <body>
