@@ -22,19 +22,31 @@
 					<div class="col-md-3">
 						<div class="section">
 							<h3>International</h3>
-							<img src="assets/img/logo.png">
+							<img src="assets/img/international-icon.png">
 							<ul class="inputs">
 								<li>
-									<input type="radio" name="geo-area">
-									Mostly
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											Mostly
+										</label>
+									</div>
 								</li>
 								<li>
-									<input type="radio" name="geo-area">
-									A Litle
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											A Litle
+										</label>
+									</div>
 								</li>
 								<li>
-									<input type="radio" name="geo-area">
-									A Litle
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											Not at All
+										</label>
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -42,19 +54,31 @@
 					<div class="col-md-3">
 						<div class="section">
 							<h3>National</h3>
-							<img src="assets/img/logo.png">
+							<img src="assets/img/international-icon.png">
 							<ul class="inputs">
 								<li>
-									<input type="radio" name="geo-area">
-									Mostly
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											Mostly
+										</label>
+									</div>
 								</li>
 								<li>
-									<input type="radio" name="geo-area">
-									A Litle
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											A Litle
+										</label>
+									</div>
 								</li>
 								<li>
-									<input type="radio" name="geo-area">
-									Not at All
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											Not at All
+										</label>
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -62,19 +86,31 @@
 					<div class="col-md-3">
 						<div class="section">
 							<h3>Regional</h3>
-							<img src="assets/img/logo.png">
+							<img src="assets/img/international-icon.png">
 							<ul class="inputs">
 								<li>
-									<input type="radio" name="geo-area">
-									Mostly
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											Mostly
+										</label>
+									</div>
 								</li>
 								<li>
-									<input type="radio" name="geo-area">
-									A Litle
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											A Litle
+										</label>
+									</div>
 								</li>
 								<li>
-									<input type="radio" name="geo-area">
-									Not at All
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											Not at All
+										</label>
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -82,19 +118,31 @@
 					<div class="col-md-3">
 						<div class="section">
 							<h3>Local</h3>
-							<img src="assets/img/logo.png">
+							<img src="assets/img/international-icon.png">
 							<ul class="inputs form-group">
 								<li>
-									<input type="radio" name="geo-area">
-									Mostly
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											Mostly
+										</label>
+									</div>
 								</li>
 								<li>
-									<input type="radio" name="geo-area">
-									A Litle
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											A Litle
+										</label>
+									</div>
 								</li>
 								<li>
-									<input type="radio" name="geo-area">
-									A Litle
+									<div class="radio">
+										<label>
+											<input type="radio" name="geo-area">
+											Not at All
+										</label>
+									</div>
 								</li>
 							</ul>
 						</div>

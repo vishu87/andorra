@@ -46,8 +46,9 @@ input, button, a {
 		color: $grey;
 	}
 	img {
-		width: 300px;
+		width: 345px;
 		height: auto;
+		margin: 20px 0;
 	}
 	span {
 		font-style: italic;
@@ -59,10 +60,10 @@ input, button, a {
 /* page css */
 
 .logo-div {
-	padding: 5px 0;
+	padding: 10px 0;
 	text-align: center;
 	img {
-		width: 120px;
+		width: 150px;
 		height: auto;
 	}
 }
@@ -143,7 +144,7 @@ input, button, a {
 	color: $white;
 	margin-bottom: 30px;
 	> div {
-		border: 1px solid #eee;
+		/*border: 1px solid #eee;*/
 		padding: 15px 0;
 	}
 }
@@ -166,7 +167,7 @@ input, button, a {
 	}
 	ul.inputs {
 		text-align: left;
-		padding-left: 70px;
+		/*padding-left: 55px;*/
 	}
 }
 
@@ -181,22 +182,45 @@ input, button, a {
 			transform: rotate(-90deg);
 		}
 	}
-	.circle {
-		position: absolute;
-		z-index: 1000;
-	}
 	.row {
 		> div {
-			height: 150px;
-			border: 1px solid #000;
+			height: 175px;
+			/*border: 1px solid #000;*/
+			position: relative;
+			.abs {
+				font-weight: 600;
+			}
+			.circle {
+				position: absolute;
+				z-index: 1000;
+				border: 3px solid #fff;
+			}
 			&.div1{
-				background: #EEE;
+				background: #BFBFBF;
 			}
 			&.div2{
-				background: #DDD;
+				background: #A6A6A6;
 			}
 			&.div3{
-				background: #CCC;
+				background: #808080;
+			}
+			&.div4 {
+				background: #D9D9D9;
+			}
+			&.div5 {
+				background: #BFBFBF;
+			}
+			&.div6 {
+				background: #A6A6A6;
+			}
+			&.div7 {
+				background: #F2F2F2;
+			}
+			&.div8 {
+				background: #D9D9D9;
+			}
+			&.div9 {
+				background: #BFBFBF;
 			}
 			&.simple{
 				text-align: center;
@@ -218,6 +242,7 @@ input, button, a {
 				padding: 10px;
 				&:first-child {
 					font-weight: bold;
+					width: 200px;
 				}
 			}
 			&:nth-child(2n+1){
@@ -253,6 +278,14 @@ input, button, a {
 	}
 	table {
 		width: 100%;
+		thead tr {
+			background: none !important;
+			td {
+				color: $blue;
+				font-weight: 600;
+				font-size: 18px;
+			}
+		}
 		tr {
 			background: #DDD;
 			td {
@@ -276,12 +309,25 @@ input, button, a {
 	}
 	table {
 		width: 100%;
+		thead tr{
+			font-size: 16px;
+			font-weight: 600;
+			color: $blue;
+			background: #ddd !important;
+			border-bottom: 1px solid $blue;
+		}
 		tr {
 			background: #DDD;
 			td {
 				padding: 10px;
 				&:first-child {
 					font-weight: bold;
+				}
+				span {
+					display: block;
+					background: $blue;
+					height: 6px;
+					width: 50px;
 				}
 			}
 			&:nth-child(2n+1){

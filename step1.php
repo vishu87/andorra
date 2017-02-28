@@ -43,16 +43,28 @@
 			<div class="ans">
 				<ul>
 					<li>
-						<input type="radio" name="ques2">
-						I want to preserve my capital
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								I want to preserve my capital
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques2">
-						I am willing to make high risk, high impact investments with private companies
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								I am willing to make high risk, high impact investments with private companies
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques2">
-						I want to do both
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								I want to do both
+							</label>
+						</div>
 					</li>
 				</ul>
 			</div>

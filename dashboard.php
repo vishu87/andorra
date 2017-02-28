@@ -52,14 +52,92 @@
 			<div class="diversification">
 				<h2>Diversification Strategy</h2>
 				<table>
+					<thead>
+						<td>Asset Class</td>
+						<td>Target</td>
+						<td>Current</td>
+						<td></td>
+						<td>Market Value</td>
+						<td>Return</td>
+					</thead>	
 					<tbody>
 						<tr>
-							<td>Type of Impact Investor</td>
-							<td>Program Related Investor</td>
+							<td>VC Fund</td>
+							<td>20%</td>
+							<td>25%</td>
+							<td>
+								<span class="range"></span>
+							</td>
+							<td>$2,657,500</td>
+							<td>15%</td>
 						</tr>
 						<tr>
-							<td>Type of Impact Investor</td>
-							<td>Program Related Investor</td>
+							<td>Pay For Success Bonds</td>
+							<td>15%</td>
+							<td>10%</td>
+							<td>
+								<span class="range"></span>
+							</td>
+							<td>$1,063,000</td>
+							<td>5%</td>
+						</tr>
+						<tr>
+							<td>Green Bonds</td>
+							<td>15%</td>
+							<td>15%</td>
+							<td>
+								<span class="range"></span>
+							</td>
+							<td>$1,594,500</td>
+							<td>8%</td>
+						</tr>
+						<tr>
+							<td>Microfinance</td>
+							<td>5%</td>
+							<td>7%</td>
+							<td>
+								<span class="range"></span>
+							</td>
+							<td>$744.100</td>
+							<td>1%</td>
+						</tr>
+						<tr>
+							<td>Non-Profit Lending</td>
+							<td>25%</td>
+							<td>23%</td>
+							<td>
+								<span class="range"></span>
+							</td>
+							<td>$2,444,900</td>
+							<td>2%</td>
+						</tr>
+						<tr>
+							<td>Grants</td>
+							<td>20%</td>
+							<td>10%</td>
+							<td>
+								<span class="range"></span>
+							</td>
+							<td>$1,063,000</td>
+							<td>0%</td>
+						</tr>
+						<tr>
+							<td>Cash</td>
+							<td>0%</td>
+							<td>10%</td>
+							<td>
+								<span class="range"></span>
+							</td>
+							<td>$1,063,000</td>
+							<td>0%</td>
+						</tr>
+						<tr class="total">
+							<td>Total</td>
+							<td>100%</td>
+							<td>100%</td>
+							<td></td>
+							<td>$10,630,000</td>
+							<td>6.3%</td>
 						</tr>
 					</tbody>
 				</table>
@@ -69,6 +147,18 @@
 		<div>
 			<div class="risk-score">
 				<h2>Risk Score</h2>
+				<div class="risk-measure table-div">
+					<div style="background:#919191;">1</div>
+					<div style="background:#B5B5B5;">2</div>
+					<div style="background:#CBCBCB;">3</div>
+					<div style="background:#E0E0E0;">4</div>
+					<div style="background:#E3EBF5;">5</div>
+					<div style="background:#C5D7EA;">6</div>
+					<div style="background:#A5C0DF;">7</div>
+					<div style="background:#4674A3;">8</div>
+					<div style="background:#225785;">9</div>
+					<div style="background:#123351;">10</div>
+				</div>
 				
 			</div>
 		</div>
@@ -87,7 +177,7 @@
 <script type="text/javascript" src="assets/js/canvasjs.min.js"></script>
 <script type="text/javascript">
 window.onload = function () {
-	CanvasJS.addColorSet("greenShades",["#2F4F4F","#008080","#2E8B57","#3CB371", "#90EE90"]);
+	CanvasJS.addColorSet("greenShades",["#123351","#4674A3","#A5C0DF","#C5D7EA","#E0E0E0", "#919191"]);
 
 	var chart1 = new CanvasJS.Chart("chartContainer1", {
         animationEnabled: true,

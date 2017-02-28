@@ -26,13 +26,94 @@
 				Please select the top eight social and environmental issues from the list provided?
 			</div>
 			<?php
-				for ($i=0; $i < 15; $i++) { 
+				//for ($i=0; $i < 15; $i++) { 
 					?>
-					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php echo $i ?>">
-						<?php echo 'Issue '.$i ?>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Gender Equality
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Health
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Racial Equality
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Renewable Energy
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Education
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Wildlife
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Income Inequality
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Community
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Faith
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Social Responsibilty
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Veterans Assistance
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Environment
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						International Development
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Disease Prevention
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Youth
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Non-Profits
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						CO2 Emissions
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Food &amp; Nutrition
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Enterpreneurs
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						Agriculture
+					</div>
+					<div style="border:1px solid #000; display: inline-block; padding: 10px; margin-bottom: 5px;" class="draggable pink drag<?php //echo $i ?>">
+						<?php //echo 'Issue '.$i ?>
+						All of the Above
 					</div>
 					<?php
-				}
+				//}
 			?>
 		</div>
 		<div class="tiers">

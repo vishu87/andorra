@@ -28,14 +28,41 @@
 		<div class="portfolio-table">
 			<h2>Portfolio Breakdown</h2>
 			<table>
+				<thead>
+					<td></td>
+					<td>Expected Return</td>
+					<td>Investments</td>
+				</thead>
 				<tbody>
 					<tr>
-						<td>Type of Impact Investor</td>
-						<td>Program Related Investor</td>
+						<td>Non-Profit Lending</td>
+						<td>2-4%</td>
+						<td>Boston Community Capital</td>
 					</tr>
 					<tr>
-						<td>Type of Impact Investor</td>
-						<td>Program Related Investor</td>
+						<td>Microfinance</td>
+						<td>0-1%</td>
+						<td>Kiva</td>
+					</tr>
+					<tr>
+						<td>VC Fund</td>
+						<td>9+%</td>
+						<td>Boston Impact Initiative</td>
+					</tr>
+					<tr>
+						<td>Pay For Success Bonds</td>
+						<td>2-6%</td>
+						<td>Social Finance</td>
+					</tr>
+					<tr>
+						<td>Green Bonds</td>
+						<td>4-8%</td>
+						<td>PSM Clean Energy</td>
+					</tr>
+					<tr>
+						<td>Grants</td>
+						<td>0%</td>
+						<td>Social Innovation Forum</td>
 					</tr>
 				</tbody>
 			</table>
@@ -50,7 +77,7 @@
 <script type="text/javascript" src="assets/js/canvasjs.min.js"></script>
 <script type="text/javascript">
 window.onload = function () {
-	CanvasJS.addColorSet("greenShades",["#2F4F4F","#008080","#2E8B57","#3CB371", "#90EE90"]);
+	CanvasJS.addColorSet("greenShades",["#123351","#4674A3","#A5C0DF","#C5D7EA","#E0E0E0", "#919191"]);
 
 	var chart = new CanvasJS.Chart("chartContainer",
 	{

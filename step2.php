@@ -14,16 +14,16 @@
 <div class="container">
 	<div class="page-body">
 		<div class="risk-measure table-div">
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
-			<div>4</div>
-			<div>5</div>
-			<div>6</div>
-			<div>7</div>
-			<div>8</div>
-			<div>9</div>
-			<div>10</div>
+			<div style="background:#919191;">1</div>
+			<div style="background:#B5B5B5;">2</div>
+			<div style="background:#CBCBCB;">3</div>
+			<div style="background:#E0E0E0;">4</div>
+			<div style="background:#E3EBF5;">5</div>
+			<div style="background:#C5D7EA;">6</div>
+			<div style="background:#A5C0DF;">7</div>
+			<div style="background:#4674A3;">8</div>
+			<div style="background:#225785;">9</div>
+			<div style="background:#123351;">10</div>
 		</div>
 		<div class="page-questions">
 			<div class="row">
@@ -36,14 +36,10 @@
 			</div>
 			<div class="ques">
 				B. How much money do you want to invest?
-			</div>
-			<div class="ans">
 				<input type="number" name="">
 			</div>
 			<div class="ques">
 				C. Total value of cash and liquid investments?
-			</div>
-			<div class="ans">
 				<input type="number" name="">
 			</div>
 			<div class="ques">
@@ -52,20 +48,36 @@
 			<div class="ans">
 				<ul>
 					<li>
-						<input type="radio" name="ques1">
-						Maximizing gains
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques1">
+								Maximizing gains
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques1">
-						Minimizing Losses
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques1">
+								Minimizing Losses
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques1">
-						Preserving capital
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques1">
+								Preserving capital
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques1">
-						All three
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques1">
+								All three
+							</label>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -75,20 +87,36 @@
 			<div class="ans">
 				<ul>
 					<li>
-						<input type="radio" name="ques2">
-						Sell all your investments?
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								Sell all your investments?
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques2">
-						Sell some of your investments?
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								Sell some of your investments?		
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques2">
-						Keep all your investments?
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								Keep all your investments?		
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques2">
-						Buy more investments?
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								Buy more investments?
+							</label>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -98,16 +126,28 @@
 			<div class="ans">
 				<ul>
 					<li>
-						<input type="radio" name="ques2">
-						I’d like a steady income with low returns and high impact
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								I’d like a steady income with low returns and high impact
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques2">
-						I’m willing to gamble some of my money on risky. investments that yield high impact, high returns.
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								I’m willing to gamble some of my money on risky. investments that yield high impact, high returns.
+							</label>
+						</div>
 					</li>
 					<li>
-						<input type="radio" name="ques2">
-						I’d like to invest my money in market rate impact investments and make sure I’m not investing in terrible companies.
+						<div class="radio">
+							<label>
+								<input type="radio" name="ques2">
+								I’d like to invest my money in market rate impact investments and make sure I’m not investing in terrible companies.
+							</label>
+						</div>
 					</li>
 				</ul>
 			</div>
