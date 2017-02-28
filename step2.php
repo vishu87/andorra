@@ -132,7 +132,7 @@
 					<li>
 						<div class="radio">
 							<label>
-								<input type="radio" name="ques2">
+								<input type="radio" name="ques3">
 								I’d like a steady income with low returns and high impact
 							</label>
 						</div>
@@ -140,7 +140,7 @@
 					<li>
 						<div class="radio">
 							<label>
-								<input type="radio" name="ques2">
+								<input type="radio" name="ques3">
 								I’m willing to gamble some of my money on risky. investments that yield high impact, high returns.
 							</label>
 						</div>
@@ -148,7 +148,7 @@
 					<li>
 						<div class="radio">
 							<label>
-								<input type="radio" name="ques2">
+								<input type="radio" name="ques3">
 								I’d like to invest my money in market rate impact investments and make sure I’m not investing in terrible companies.
 							</label>
 						</div>
