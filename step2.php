@@ -1,14 +1,19 @@
 <?php include('header.php'); ?>
-	
-<div class="container logo-div">
-	<img src="assets/img/logo.png">
-</div>
 <div class="page-banner-div">
 	<div class="container">
-		<h2>Step 2</h2>
-		<h3>
-			Determine Your Risk Tolerance
-		</h3>
+		<div class="top-head">
+			<div class="row">
+				<div class="col-md-8">
+					<h2>Step 2</h2>
+					<h3>
+						Determine Your Risk Tolerance
+					</h3>	
+				</div>
+				<div class="col-md-4 logo-right">
+					<a href="index.php"><img src="assets/img/logo.png"></a>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <div class="container">
@@ -26,13 +31,9 @@
 			<div style="background:#123351;">10</div>
 		</div>
 		<div class="page-questions">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="ques">
-						A. For how many years do you want to invest your money?
-						<input type="number" name="">
-					</div>
-				</div>
+			<div class="ques">
+				A. For how many years do you want to invest your money?
+				<input type="number" name="">
 			</div>
 			<div class="ques">
 				B. How much money do you want to invest?

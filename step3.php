@@ -1,14 +1,19 @@
 <?php include('header.php'); ?>
-
-<div class="container logo-div">
-	<img src="assets/img/logo.png">
-</div>	
 <div class="page-banner-div">
 	<div class="container">
-		<h2>Step 3</h2>
-		<h3>
-			Target Your Geographic Preference
-		</h3>
+		<div class="top-head">
+			<div class="row">
+				<div class="col-md-8">
+					<h2>Step 3</h2>
+					<h3>
+						Target Your Geographic Preference
+					</h3>	
+				</div>
+				<div class="col-md-4 logo-right">
+					<a href="index.php"><img src="assets/img/logo.png"></a>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <div class="container">
@@ -27,7 +32,7 @@
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
+											<input type="radio" name="geo-area1">
 											Mostly
 										</label>
 									</div>
@@ -35,15 +40,15 @@
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
-											A Litle
+											<input type="radio" name="geo-area1">
+											A Little
 										</label>
 									</div>
 								</li>
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
+											<input type="radio" name="geo-area1">
 											Not at All
 										</label>
 									</div>
@@ -59,7 +64,7 @@
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
+											<input type="radio" name="geo-area2">
 											Mostly
 										</label>
 									</div>
@@ -67,15 +72,15 @@
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
-											A Litle
+											<input type="radio" name="geo-area2">
+											A Little
 										</label>
 									</div>
 								</li>
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
+											<input type="radio" name="geo-area2">
 											Not at All
 										</label>
 									</div>
@@ -91,7 +96,7 @@
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
+											<input type="radio" name="geo-area3">
 											Mostly
 										</label>
 									</div>
@@ -99,15 +104,15 @@
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
-											A Litle
+											<input type="radio" name="geo-area3">
+											A Little
 										</label>
 									</div>
 								</li>
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
+											<input type="radio" name="geo-area3">
 											Not at All
 										</label>
 									</div>
@@ -123,7 +128,7 @@
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
+											<input type="radio" name="geo-area4">
 											Mostly
 										</label>
 									</div>
@@ -131,15 +136,15 @@
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
-											A Litle
+											<input type="radio" name="geo-area4">
+											A Little
 										</label>
 									</div>
 								</li>
 								<li>
 									<div class="radio">
 										<label>
-											<input type="radio" name="geo-area">
+											<input type="radio" name="geo-area4">
 											Not at All
 										</label>
 									</div>

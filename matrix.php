@@ -1,15 +1,22 @@
 <?php include('header.php'); ?>
 
-<div class="container logo-div">
-	<img src="assets/img/logo.png">
-</div>	
 <div class="page-banner-div">
 	<div class="container">
-		<h3>
-			Your Philosophy Matrix
-		</h3>
+		<div class="top-head">
+			<div class="row">
+				<div class="col-md-8">
+					<h3>
+						Your Philosophy Matrix
+					</h3>	
+				</div>
+				<div class="col-md-4 logo-right">
+					<a href="index.php"><img src="assets/img/logo.png"></a>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
+
 <div class="container">
 	<div class="page-body">
 		<div class="matrix">
