@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('auth.php'); include('header.php'); ?>
 	<div class="container">
 		<div class="home-title">
 			<h2>What Type of Impact Investor Are You?</h2>
@@ -10,6 +10,12 @@
 	</div>
 	<div style="background: #f7f7f7; padding: 30px 0; box-shadow: inset 0 0 9px #CCC;">
 		<div class="container">
+			<div class="home-mission">
+				<h2>Andorra's Mission</h2>
+				<p>
+					To make impact investing accessible to everyone so that foundations and people can support the individuals solving social and environmental problems.
+				</p>
+			</div>
 			<div class="home-software">
 				<h2 class="title">Andorra's Software As A Service Platform<br> Helps Investors...</h2>
 				<div class="row">
@@ -50,12 +56,7 @@
 						<img src="assets/img/invest-impact-icon.png">	
 					</div>
 				</div>
-				<div class="home-mission">
-					<h2>Andorra's Mission</h2>
-					<p>
-						To make impact investing accessible to everyone so that foundations and people can support the individuals solving social and environmental problems.
-					</p>
-				</div>
+				
 			</div>
 		</div>
 

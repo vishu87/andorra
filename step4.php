@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('auth.php'); include('header.php'); ?>
 
 <div class="page-banner-div">
 	<div class="container">
@@ -72,7 +72,7 @@
 			</div>
 		</div>
 		<div class="next-btn">
-			<a href="matrix.php">Submit</a>
+			<a href="profile.php">Submit</a>
 		</div>
 	</div>
 </div>

@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('auth.php'); include('header.php'); ?>
 
 <div class="page-banner-div">
 	<div class="container">

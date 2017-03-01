@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
 /* font-families */
 
-// $open_sans: 'Open Sans', sans-serif;
+/*$open_sans: 'Open Sans', sans-serif;*/
 $open_sans: 'Montserrat', sans-serif;
 $blue: #17365D;
 $red: #A54A4A;
@@ -34,6 +34,20 @@ input, button, a {
 
 /* header css */
 
+.login {
+	text-align: center;
+	margin-top: 200px;
+	.logo {
+		margin-bottom: 20px;
+	}
+	input:active {
+		outline: none;
+	}
+	.error {
+		margin-bottom: 10px;
+    	color: #c40d0d;
+	}
+}
 
 /* index page css */
 
@@ -85,15 +99,18 @@ input, button, a {
 	}
 }
 .home-mission {
-	margin: 100px 0;
-	
+	text-align: center;
 	font-size: 18px;
+	margin-bottom: 80px;
 	h2 {
-		font-size: 25px;
-		color: $blue;
-		// font-style: italic;
+		font-size: 30px;
 		font-weight: 700;
 		margin-bottom: 0;
+	}
+	p {
+		color: $blue;
+		font-size: 20px;
+		padding: 0 100px;
 	}
 }
 
@@ -353,6 +370,19 @@ h2.chart-title {
 		height:20px;
 		z-index:999;
 		width:100%;
+	}
+	&.dashboard {
+		width: 340px;
+		.abs {
+			position: absolute;
+		    z-index: 999;
+		    font-weight: bold;
+		    font-size: 14px;
+		    color: #000;
+		    .hidden {
+		    	display: none;
+		    }
+		}
 	}
 }
 .screen-shot {

@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('auth.php'); include('header.php'); ?>
 
 <div class="page-banner-div">
 	<div class="container">
@@ -24,8 +24,8 @@
 				<h2 class="chart-title">
 					Asset Class
 				</h2>
-				<div class="chart">
-			  		<div id="chartContainer1" style="height: 400px; width: 100%;"></div>
+				<div class="chart dashboard">
+			  		<div id="chartContainer1" style="height: 380px; width: 100%;"></div>
 			  		<div class="hide-text"></div>
 				</div>
 			</div>
@@ -33,8 +33,13 @@
 				<h2 class="chart-title">
 					Social Focus
 				</h2>
-				<div class="chart">
-			  		<div id="chartContainer2" style="height: 400px; width: 100%;"></div>
+				<div class="chart dashboard">
+					<div class="abs hidden" style="top: 140px; right: 0;">International<br>Development 9%</div>
+					<div class="abs hidden" style="top: 210px; right: 0;">Education 12%</div>
+					<div class="abs hidden" style="top: 290px; right: 0;">Entrepreneurs<br>6%</div>
+					<div class="abs hidden" style="top: 265px; left: 8px;">Environment 13%</div>
+					<div class="abs hidden" style="top: 188px; left: 22px;">Agriculture 13%</div>
+			  		<div id="chartContainer2" style="height: 380px; width: 100%;"></div>
 			  		<div class="hide-text"></div>
 				</div>
 			</div>
@@ -42,8 +47,8 @@
 				<h2 class="chart-title">
 					Geographic Location
 				</h2>
-				<div class="chart">
-			  		<div id="chartContainer3" style="height: 400px; width: 100%;"></div>
+				<div class="chart dashboard">
+			  		<div id="chartContainer3" style="height: 380px; width: 100%;"></div>
 			  		<div class="hide-text"></div>
 				</div>
 			</div>
@@ -62,8 +67,9 @@
 				<h2 class="chart-title">
 					Impact Investing Portfolio 
 				</h2>
-				<div class="chart">
-			  		<div id="chartContainer4" style="height: 400px; width: 100%;"></div>
+				<div class="chart dashboard">
+					<div class="abs hidden" style="top: 199px; right: 0;">Microfinance 5%</div>
+			  		<div id="chartContainer4" style="height: 380px; width: 100%;"></div>
 			  		<div class="hide-text"></div>
 				</div>
 			</div>
@@ -210,7 +216,7 @@
 <script type="text/javascript" src="assets/js/canvasjs.min.js"></script>
 <script type="text/javascript">
 window.onload = function () {
-	CanvasJS.addColorSet("greenShades",["#123351","#4674A3","#A5C0DF","#C5D7EA","#E0E0E0", "#919191"]);
+	CanvasJS.addColorSet("greenShades",["#123351","#4674A3","#A5C0DF","#C5D7EA","#E0E0E0", "#919191","#E0E0E0","#CBCBCB"]);
 
 	var chart1 = new CanvasJS.Chart("chartContainer1", {
         animationEnabled: true,
@@ -225,14 +231,15 @@ window.onload = function () {
 		{        
 			type: "pie",
 			name: "portfolio",      
-			indexLabelFontSize: 14,
-			indexLabel: "{label}",
+			indexLabelFontSize: 17,
+			indexLabel: "{label} {y}%",
 			startAngle:-160,
 			toolTipContent:"{legendText}",
 			indexLabelPlacement: "inside",
-			indexLabelFontColor: "white",
+			indexLabelFontColor: "black",
+			indexLabelFontWeight: "bold",
 			dataPoints: [
-				{  y: 10, label: "Grants", legendText:'Grants 10%' },
+				{  y: 10, label: "Grants", legendText:'Grants 10%', indexLabelFontColor: "#888", },
 				{  y: 25, label: "Equity", legendText: 'Equity 25%' },
 				{  y: 55, label: "Fixed Income", legendText: 'Fixed Income 55%' },
 				{  y: 10, label: "Cash", legendText: 'Cash 10%'}
@@ -255,21 +262,22 @@ window.onload = function () {
 		{        
 			type: "pie",
 			name: "portfolio",      
-			indexLabelFontSize: 14,
-			indexLabel: "{label}",
+			indexLabelFontSize: 17,
+			indexLabel: "{label} {y}%",
 			startAngle:-160,
 			toolTipContent:"{label} {y}%",
 			indexLabelPlacement: "inside",
-			indexLabelFontColor: "white",
+			indexLabelFontColor: "black",
+			indexLabelFontWeight: "bold",
 			dataPoints: [
-				{  y: 20, label: "Renewable Energy"},
+				{  y: 20, label: "Renewable Energy", indexLabelFontColor:'#888'},
 				{  y: 15, label: "Non-Profit"},
-				{  y: 9, label: "International Development"},
-				{  y: 12, label: "Education" },  
-				{  y: 6, label: "Entrepreneurs" },  
+				{  y: 9, label: "International Development",indexLabel:" "},
+				{  y: 12, label: "Education", indexLabel:" " },  
+				{  y: 6, label: "Entrepreneurs", indexLabel: " " },  
 				{  y: 12, label: "Health"},
-				{  y: 13, label: "Environment"},
-				{  y: 13, label: "Agriculture"},
+				{  y: 13, label: "Environment", indexLabel: " "},
+				{  y: 13, label: "Agriculture", indexLabel: " "},
 			]
 		}
 		]
@@ -289,14 +297,15 @@ window.onload = function () {
 		{        
 			type: "pie",
 			name: "portfolio",      
-			indexLabelFontSize: 14,
-			indexLabel: "{label}",
+			indexLabelFontSize: 17,
+			indexLabel: "{label} {y}%",
 			startAngle:-160,
 			toolTipContent:"{label} {y}%",
 			indexLabelPlacement: "inside",
-			indexLabelFontColor: "white",
+			indexLabelFontColor: "black",
+			indexLabelFontWeight: "bold",
 			dataPoints: [
-				{  y: 10, label: "Local"},
+				{  y: 10, label: "Local", indexLabelFontColor:"#888"},
 				{  y: 30, label: "International"},
 				{  y: 25, label: "National"},
 				{  y: 35, label: "Regional"}
@@ -319,16 +328,17 @@ window.onload = function () {
 		{        
 			type: "pie",
 			name: "portfolio",      
-			indexLabelFontSize: 14,
-			indexLabel: "{label}",
+			indexLabelFontSize: 17,
+			indexLabel: "{label} {y}%",
 			startAngle:-160,
 			toolTipContent:"{label} {y}% <br>(Expected Return {legendText})",
 			indexLabelPlacement: "inside",
-			indexLabelFontColor: "white",
+			indexLabelFontColor: "black",
+			indexLabelFontWeight: "bold",
 			dataPoints: [
-				{  y: 20, label: "Grants", legendText:'0%' },
+				{  y: 20, label: "Grants", legendText:'0%', indexLabelFontColor:'#888' },
 				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },
-				{  y: 5, label: "Microfinance", legendText: '0-1%' },
+				{  y: 5, label: "Microfinance", legendText: '0-1%', indexLabel: ' ' },
 				{  y: 20, label: "VC Fund", legendText: '9+%'},       
 				{  y: 15, label: "Pay For Success Bonds", legendText:'2-6%'},
 				{  y: 15, label: "Green Bonds", legendText:'4-8%'},
@@ -359,7 +369,7 @@ window.onload = function () {
 		{        
 			type: "column",
 			name: "portfolio",
-
+			toolTipContent:"{label} {y}%",
 			dataPoints: [
 				{  y: 6, label: "Your Return" },
 				{  y: 8, label: "VC Average Return" },
@@ -372,6 +382,9 @@ window.onload = function () {
 	});
 	chart5.render();
 
+	setTimeout(function(e){
+		$(".chart .abs").removeClass('hidden');
+	},1200);
 }
 </script>
 <?php include('footer.php'); ?>

@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('auth.php'); include('header.php'); ?>
 
 <div class="page-banner-div">
 	<div class="container">
@@ -92,19 +92,20 @@ window.onload = function () {
 		{        
 			type: "pie",
 			name: "portfolio",      
-			indexLabelFontSize: 14,
-			indexLabel: "{label}",
-			startAngle:-160,
+			indexLabelFontSize: 18,
+			indexLabelFontWeight: "bold",
+			indexLabelMaxWidth: 100,
+			startAngle: -160,
 			toolTipContent:"{label} {y}% <br>(Expected Return {legendText})",
 			indexLabelPlacement: "inside",
-			indexLabelFontColor: "white",
+			indexLabelFontColor: "black",
 			dataPoints: [
-				{  y: 20, label: "Grants", legendText:'0%' },
-				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },
-				{  y: 5, label: "Microfinance", legendText: '0-1%', indexLabel:'' },
-				{  y: 20, label: "VC Fund", legendText: '9+%'},       
-				{  y: 15, label: "Pay For Success Bonds", legendText:'2-6%'},
-				{  y: 15, label: "Green Bonds", legendText:'4-8%'},
+				{  y: 20, label: "Grants", legendText:'0%', indexLabel:'Grants 20%', indexLabelFontColor:'#888' },
+				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%', indexLabel:'Non-Profit Lending 25%' },
+				{  y: 5, label: "Microfinance", legendText: '0-1%', indexLabel:'Microfinance 5%' },
+				{  y: 20, label: "VC Fund", legendText: '9+%', indexLabel:'VC Fund 20%'},       
+				{  y: 15, label: "Pay For Success Bonds", legendText:'2-6%', indexLabel:'Pay For Success Bonds 15%'},
+				{  y: 15, label: "Green Bonds", legendText:'4-8%', indexLabel: 'Green Bonds 15%'},
 			]
 		}
 		]
