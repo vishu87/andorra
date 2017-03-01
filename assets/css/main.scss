@@ -502,6 +502,12 @@ h2.chart-title {
 	}
 	
 }
+.risk-arrow {
+	margin:-15px 0 10px 0;
+	overflow: hidden; width: 65%;
+	background: url(../img/arrow.png) no-repeat top right;
+	height: 80px; 
+}
 
 .draggable{
 	cursor: move;

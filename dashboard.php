@@ -86,6 +86,7 @@
 		<div>
 			<div class="diversification">
 				<h2>Diversification Strategy</h2>
+				<div class="tableDiv">
 				<table>
 					<thead>
 						<td>Asset Class</td>
@@ -176,6 +177,7 @@
 						</tr>
 					</tbody>
 				</table>
+				</div>
 			</div>
 		</div>
 
@@ -194,7 +196,7 @@
 					<div style="background:#225785;">9</div>
 					<div style="background:#123351;">10</div>
 				</div>
-				<div style="margin:-15px 0 10px 0; overflow: hidden; width: 65%; background: url(assets/img/arrow.png) no-repeat top right; height: 80px; ">
+				<div class="risk-arrow">
 				</div>
 			</div>
 		</div>
