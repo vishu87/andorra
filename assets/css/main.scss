@@ -513,3 +513,17 @@ h2.chart-title {
 .grey:hover {
 	background: #EEE;
 }
+header {
+	.container {
+		position: relative;
+		.logout {
+			position: absolute;
+			top: 0;
+			right: 0;
+			a {
+				font-size: 12px;
+				color: $blue;
+			}
+		}
+	}
+}
