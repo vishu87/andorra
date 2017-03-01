@@ -76,7 +76,7 @@
 <script type="text/javascript" src="assets/js/canvasjs.min.js"></script>
 <script type="text/javascript">
 window.onload = function () {
-	CanvasJS.addColorSet("greenShades",["#123351","#4674A3","#A5C0DF","#C5D7EA","#E0E0E0", "#919191"]);
+	CanvasJS.addColorSet("greenShades",["#4674A3","#A5C0DF","#C5D7EA","#E0E0E0", "#919191","#B5B5B5"]);
 
 	var chart = new CanvasJS.Chart("chartContainer",
 	{
@@ -100,7 +100,7 @@ window.onload = function () {
 			indexLabelPlacement: "inside",
 			indexLabelFontColor: "black",
 			dataPoints: [
-				{  y: 20, label: "Grants", legendText:'0%', indexLabel:'Grants 20%', indexLabelFontColor:'#888' },
+				{  y: 20, label: "Grants", legendText:'0%', indexLabel:'Grants 20%'},
 				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%', indexLabel:'Non-Profit Lending 25%' },
 				{  y: 5, label: "Microfinance", legendText: '0-1%', indexLabel:'Microfinance 5%' },
 				{  y: 20, label: "VC Fund", legendText: '9+%', indexLabel:'VC Fund 20%'},       

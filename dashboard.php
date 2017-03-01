@@ -218,7 +218,7 @@
 <script type="text/javascript" src="assets/js/canvasjs.min.js"></script>
 <script type="text/javascript">
 window.onload = function () {
-	CanvasJS.addColorSet("greenShades",["#123351","#4674A3","#A5C0DF","#C5D7EA","#E0E0E0", "#919191","#E0E0E0","#CBCBCB"]);
+	CanvasJS.addColorSet("greenShades",["#4674A3","#A5C0DF","#C5D7EA","#E0E0E0", "#919191","#E0E0E0","#CBCBCB","#B5B5B5"]);
 
 	var chart1 = new CanvasJS.Chart("chartContainer1", {
         animationEnabled: true,
@@ -241,7 +241,7 @@ window.onload = function () {
 			indexLabelFontColor: "black",
 			indexLabelFontWeight: "bold",
 			dataPoints: [
-				{  y: 10, label: "Grants", legendText:'Grants 10%', indexLabelFontColor: "#888", },
+				{  y: 10, label: "Grants", legendText:'Grants 10%' },
 				{  y: 25, label: "Equity", legendText: 'Equity 25%' },
 				{  y: 55, label: "Fixed Income", legendText: 'Fixed Income 55%' },
 				{  y: 10, label: "Cash", legendText: 'Cash 10%'}
@@ -272,7 +272,7 @@ window.onload = function () {
 			indexLabelFontColor: "black",
 			indexLabelFontWeight: "bold",
 			dataPoints: [
-				{  y: 20, label: "Renewable Energy", indexLabelFontColor:'#888'},
+				{  y: 20, label: "Renewable Energy"},
 				{  y: 15, label: "Non-Profit"},
 				{  y: 9, label: "International Development",indexLabel:" "},
 				{  y: 12, label: "Education", indexLabel:" " },  
@@ -307,7 +307,7 @@ window.onload = function () {
 			indexLabelFontColor: "black",
 			indexLabelFontWeight: "bold",
 			dataPoints: [
-				{  y: 10, label: "Local", indexLabelFontColor:"#888"},
+				{  y: 10, label: "Local"},
 				{  y: 30, label: "International"},
 				{  y: 25, label: "National"},
 				{  y: 35, label: "Regional"}
@@ -338,7 +338,7 @@ window.onload = function () {
 			indexLabelFontColor: "black",
 			indexLabelFontWeight: "bold",
 			dataPoints: [
-				{  y: 20, label: "Grants", legendText:'0%', indexLabelFontColor:'#888' },
+				{  y: 20, label: "Grants", legendText:'0%' },
 				{  y: 25, label: "Non-Profit Lending", legendText: '2-4%' },
 				{  y: 5, label: "Microfinance", legendText: '0-1%', indexLabel: ' ' },
 				{  y: 20, label: "VC Fund", legendText: '9+%'},       
