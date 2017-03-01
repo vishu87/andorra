@@ -99,6 +99,14 @@
 	.tiers {
 		margin-bottom: 40px;
 	}
+	.matrix-container {
+		width: 350px;
+		overflow: scroll;
+		.matrix {
+			padding: 20px;
+			/*width: 100%;*/
+		}
+	}
 	.profile {
 		width: 100%;
 		padding-top: 20px;
